@@ -63,7 +63,7 @@
 
 
    * `source` — глобальный [адрес источника](https://www.terraform.io/docs/language/providers/requirements.html#source-addresses) провайдера.
-   * `version` — минимальная версия провайдера, с которой совместим модуль. Номер версии можно посмотреть на [странице провайдера]({{ tf-provider-link }}) (кнопка **USE PROVIDER** в верхнем правом углу).
+   * `required_version` — минимальная версия провайдера, с которой совместим модуль. Номер версии можно посмотреть на [странице провайдера]({{ tf-provider-link }}) (кнопка **USE PROVIDER** в верхнем правом углу).
    * `provider` — название провайдера.
    * `token` — [OAuth-токен](../iam/concepts/authorization/oauth-token.md) для доступа к {{ yandex-cloud }}.
    * `cloud_id` — идентификатор облака, в котором Terraform создаст ресурсы.
